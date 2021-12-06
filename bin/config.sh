@@ -51,14 +51,37 @@ code --install-extension arcticicestudio.nord-visual-studio-code
 code --install-extension DavidAnson.vscode-markdownlint
 code --install-extension file-icons.file-icons
 code --install-extension formulahendry.code-runner
-code --install-extension HookyQR.beautify
-code --install-extension ivangabriele.vscode-git-add-and-commit
-code --install-extension knisterpeter.vscode-github
 code --install-extension mikestead.dotenv
 code --install-extension ms-python.python
-code --install-extension teabyii.ayu
 code --install-extension Tyriar.sort-lines
 code --install-extension yzhang.markdown-all-in-one
+code --install-extension alexcvzz.vscode-sqlite
+code --install-extension cssho.vscode-svgviewer
+code --install-extension dracula-theme.theme-dracula
+code --install-extension eliostruyf.vscode-front-matter
+code --install-extension esbenp.prettier-vscode
+code --install-extension GitHub.remotehub
+code --install-extension GrapeCity.gc-excelviewer
+code --install-extension Ikuyadeu.lucario
+code --install-extension ionutvmi.path-autocomplete
+code --install-extension janisdd.vscode-edit-csv
+code --install-extension julialang.language-julia
+code --install-extension mechatroner.rainbow-csv
+code --install-extension MS-CEINTL.vscode-language-pack-pt-BR
+code --install-extension ms-toolsai.jupyter
+code --install-extension ms-toolsai.jupyter-keymap
+code --install-extension ms-toolsai.jupyter-renderers
+code --install-extension msrvida.vscode-sanddance
+code --install-extension mtxr.sqltools
+code --install-extension nkokhelox.svg-font-previewer
+code --install-extension PKief.material-icon-theme
+code --install-extension RandomFractalsInc.vscode-data-preview
+code --install-extension REditorSupport.r-lsp
+code --install-extension ritwickdey.LiveServer
+code --install-extension tht13.html-preview-vscode
+code --install-extension VisualStudioExptTeam.vscodeintellicode
+code --install-extension vscode-icons-team.vscode-icons
+code --install-extension vsls-contrib.gistfs
 
 # Update Visual Studio Code settings [2/2]
 printf "⚙️ Update Visual Studio Code settings...\n"
@@ -74,7 +97,6 @@ cp $CONFIG/.gitconfig ~/.gitconfig
 
 # Configure macOS Finder
 printf "⚙️ Configure Finder...\n"
-defaults write -g AppleShowAllExtensions -bool true
 defaults write com.apple.finder AppleShowAllFiles true
 defaults write com.apple.finder _FXShowPosixPathInTitle -bool YES
 defaults write com.apple.finder ShowPathbar -bool true
