@@ -1,6 +1,6 @@
 {
   // The number of spaces in a tab.
-  "editor.tabSize": 2,
+  "editor.tabSize": 4,
   // Specifies workbench icon theme.
   "workbench.iconTheme": "file-icons-colourless",
   // Format a file on save.
@@ -30,7 +30,7 @@
   "editor.wordWrapColumn": 120,
   "[markdown]": {
     "editor.wordWrap": "wordWrapColumn",
-    "editor.quickSuggestions": false
+    "editor.quickSuggestions": true
   },
   // Hide release notes
   "update.showReleaseNotes": false,
@@ -41,7 +41,7 @@
   // Do not send data
   "telemetry.enableTelemetry": false,
   // Hide confirm box when delete
-  "explorer.confirmDelete": false,
+  "explorer.confirmDelete": true,
   // Removes files from editor window
   "files.exclude": {
     ".dropbox": true,
