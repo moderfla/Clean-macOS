@@ -28,6 +28,7 @@ if test ! $(which brew); then
     printf "📦 Installing Homebrew...\n"
     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
     echo "export PATH=/opt/homebrew/bin:$PATH" >> ~/.zshrc
+    source ~/.zshrc
   # Change permissions
     brew -v
     sudo chown -R $USER /usr/local/Cellar
