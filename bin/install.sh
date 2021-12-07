@@ -27,6 +27,7 @@ if test ! $(which brew); then
     xcode-select --install
     printf "📦 Installing Homebrew...\n"
     ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+    echo "export PATH=/opt/homebrew/bin:$PATH" >> ~/.zshrc
   # Change permissions
     brew -v
     sudo chown -R $USER /usr/local/Cellar
