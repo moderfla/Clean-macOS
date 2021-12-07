@@ -26,7 +26,7 @@ if test ! $(which brew); then
     printf "📦 Installing XCode CL tools...\n"
     xcode-select --install
     printf "📦 Installing Homebrew...\n"
-    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh
     echo "export PATH=/opt/homebrew/bin:$PATH" >> ~/.zshrc
     source ~/.zshrc
   # Change permissions
