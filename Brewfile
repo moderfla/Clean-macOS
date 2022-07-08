@@ -4,7 +4,8 @@ tap "homebrew/cask-fonts"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "pat-s/rcli"
-brew "python@3.9"
+tap "r-lib/rig"
+brew "python@3.10"
 brew "docker"
 brew "ffmpeg"
 brew "git"
@@ -15,11 +16,12 @@ brew "psqlodbc"
 brew "rclone"
 brew "subversion"
 brew "wget"
-brew "pat-s/rcli/rcli"
-cask "alfred"
-cask "amethyst"
+#brew "pat-s/rcli/rcli"
+#cask "alfred"
+#cask "amethyst"
 cask "android-platform-tools"
 cask "anydesk"
+cask "rig"
 cask "appcleaner"
 cask "authy"
 cask "camo-studio"
@@ -38,6 +40,7 @@ cask "iterm2"
 cask "julia"
 cask "kap"
 cask "keka"
+cask "quarto"
 cask "maccy"
 cask "microsoft-auto-update"
 cask "microsoft-edge"
@@ -48,10 +51,11 @@ cask "only-switch"
 cask "pgadmin4"
 cask "qbittorrent"
 cask "raindropio"
-cask "rstudio-daily"
+#cask "rstudio-daily"
 cask "spotify"
 cask "visual-studio-code"
 cask "zoom"
+cask "tomatobar"
 mas "AdGuard for Safari", id: 1440147259
 mas "Bitwarden", id: 1352778147
 mas "Evernote", id: 406056744
@@ -68,3 +72,6 @@ mas "Shareful", id: 1522267256
 mas "Slack", id: 803453959
 mas "Telegram", id: 747648890
 mas "WhatsApp", id: 1147396723
+mas "Hush Nag Blocker", id: 1544743900
+mas "Ka-Block", id: 1335413823
+
